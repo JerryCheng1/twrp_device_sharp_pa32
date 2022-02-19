@@ -15,11 +15,9 @@ include $(call all-subdir-makefiles)
 PRODUCT_PACKAGES += charger charger_res_images
 
 # Encryption
-PRODUCT_PACKAGES += libcryptfs_hw
-
-# Time Zone data for recovery
-PRODUCT_COPY_FILES += \
-    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
+PRODUCT_PACKAGES += \
+    libcryptfs_hw \
+    tzdata_twrp
 
 # Release name
 PRODUCT_RELEASE_NAME := SG506SH
