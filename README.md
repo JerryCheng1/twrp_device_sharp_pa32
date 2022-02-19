@@ -34,8 +34,9 @@ repo sync
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/sharp/pa32" name="JerryCheng1/twrp_device_sharp_pa32" remote="github" revision="android-11" />
+<project path="device/sharp/pa32" name="JerryCheng1/twrp_device_sharp_pa32" remote="github" revision="android-8.1" />
 <project path="kernel/sharp/msm8996" name="JerryCheng1/android_kernel_sharp_msm8996" remote="github" revision="LA.UM.6.5.r1-04300-8x96.0" />
+<project path="device/qcom/common" name="TeamWin/android_device_qcom_common" remote="github" revision="android-8.1" />
 ```
 
 Finally execute these:
