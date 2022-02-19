@@ -35,7 +35,7 @@ PRODUCT_MODEL := SG506SH
 PRODUCT_MANUFACTURER := SHARP
 
 # These additionals go to /default.prop
-ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.secure=0 \
 ro.allow.mock.location=1 \
 ro.debuggable=1 \
 ro.adb.secure=0 \
