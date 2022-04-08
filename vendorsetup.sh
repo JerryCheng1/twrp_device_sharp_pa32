@@ -1,0 +1,2 @@
+add_lunch_combo omni_pa32-eng
+add_lunch_combo omni_pa32-userdebug
